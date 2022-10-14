@@ -1,13 +1,13 @@
 body {
-    background-color: #C4BBAF;
-}
+    background-color: #FFFFFF;
+} 
 
 .nome, .sobremim {
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-em {
-    color: rgb(67,138,83);
+.sobremim {
+    font-size: 16px;
 }
 
 .comunicação{
@@ -36,4 +36,8 @@ body {
 
 #img_redonda {
     border-radius: 50%;
+}
+
+.resido {
+    color: #3B3B58;
 }
