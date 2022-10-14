@@ -1,0 +1,31 @@
+body {
+    background-color: #C4BBAF;
+}
+
+.nome, .sobremim {
+    font-family: monospace;
+}
+
+em {
+    color: rgb(67,138,83);
+}
+
+.comunicação{
+    font-size: 20px;
+}
+
+.disciplina{
+    font-size: 18px;
+}
+
+.foco{
+    font-size: 16px;
+}
+
+.honestidade{
+    font-size: 14px;
+}
+
+.honra{
+    font-size: 12px;
+}
