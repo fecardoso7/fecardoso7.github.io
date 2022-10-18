@@ -1,33 +1,41 @@
 body {
     background-color: #FFFFFF;
+    padding: 3%;
 } 
 
 .nome, .sobremim {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.nome {
+    text-align: center;
+}
+
 .sobremim {
     font-size: 16px;
+    position: relative;
+    top: 32%;
+    left: 2%;
 }
 
 .comunicação{
-    font-size: 20px;
+    font-size: 36px;
 }
 
 .disciplina{
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .foco{
-    font-size: 16px;
+    font-size: 28px;
 }
 
 .honestidade{
-    font-size: 14px;
+    font-size: 22px;
 }
 
 .honra{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 body {
@@ -35,9 +43,21 @@ body {
 }
 
 #img_redonda {
-    border-radius: 50%;
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: cornflowerblue;
 }
 
 .resido {
     color: #3B3B58;
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+ul li:nth-child(odd) {
+    background-color: crimson;
 }
